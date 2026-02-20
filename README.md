@@ -4,7 +4,7 @@ Site institucional em formato de portfólio desenvolvido para fortalecer
 a presença digital de Thayná Aguiar, apresentando seus serviços, 
 identidade e canais de contato de forma clara e estratégica.
 
------------------------------------------------------------
+
 
 ## 🔎 Sobre o Projeto
 
@@ -27,7 +27,7 @@ responsiva, priorizando leitura fluida e navegação direta.
 - **React** — componentização e organização escalável  
 - **Tailwind CSS** — estilização precisa e responsiva  
 
------------------------------------------------------------
+
 
 ## 📱 Responsividade
 
@@ -40,7 +40,7 @@ O layout segue abordagem mobile-first, garantindo consistência em:
 Flexbox e utilitários do Tailwind foram utilizados para manter 
 proporção, espaçamento e equilíbrio visual em diferentes resoluções.
 
------------------------------------------------------------
+
 
 ## 🎯 Objetivos de Desenvolvimento
 
@@ -50,13 +50,13 @@ proporção, espaçamento e equilíbrio visual em diferentes resoluções.
 - Separação clara de seções e hierarquia visual
 - Boas práticas de organização de projeto com Vite
 
------------------------------------------------------------
+
 
 ## 📌 Status
 
 Projeto em desenvolvimento.
 
------------------------------------------------------------
+
 
 ## 🔗 Deploy
 
