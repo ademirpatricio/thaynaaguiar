@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html { @apply scroll-smooth; }
+    body { @apply font-sans text-body font-light; }
+  
+    h1 { @apply text-h1 font-display mb-[0.75em]; }
+    h2 { @apply text-h2 font-display mb-[0.75em]; }
+    h3 { @apply text-h3 font-display mb-[0.75em]; }
+    h4 { @apply text-h4 font-display mb-[0.75em]; }
+    h5 { @apply text-h5 font-display mb-[0.75em]; }
+
+    p { @apply mb-4; }
+    p:last-child { @apply mb-0; }
+  
+    small { @apply text-small; }
+
+    section { @apply py-28; }
+}
+
