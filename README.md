@@ -22,6 +22,7 @@ responsiva, priorizando leitura fluida e navegação direta.
 - **Vite** — build rápido e estrutura enxuta  
 - **React** — componentização e organização escalável  
 - **Tailwind CSS** — estilização precisa e responsiva  
+- **AOS (Animate On Scroll)** — animações suaves baseadas em scroll  
   
 ## 📱 Responsividade
 
@@ -40,6 +41,7 @@ proporção, espaçamento e equilíbrio visual em diferentes resoluções.
 - Organização de layout com Tailwind
 - Responsividade com abordagem mobile-first
 - Separação clara de seções e hierarquia visual
+- Aplicação de microinterações para reforçar experiência do usuário
 - Boas práticas de organização de projeto com Vite
   
 ## 📌 Status
