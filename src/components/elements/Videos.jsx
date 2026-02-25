@@ -1,6 +1,6 @@
 export default function Videos(){
     return (
-        <div id="videos" className="w-full pt-16">
+        <div id="videos" className="w-full pt-16 lg:-translate-y-[140px]">
             <h3 className="text-center text-2xl md:text-3xl lg:text-4xl">
                 Confira um pouquinho do <span className="text-primary"> meu trabalho</span>
             </h3>

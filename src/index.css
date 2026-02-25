@@ -12,11 +12,21 @@
     h4 { @apply text-h4 font-display mb-[0.75em]; }
     h5 { @apply text-h5 font-display mb-[0.75em]; }
 
-    p { @apply mb-4; }
+    p { @apply mb-8; }
     p:last-child { @apply mb-0; }
   
     small { @apply text-small; }
 
     section { @apply py-28; }
+}
+
+
+.img-rotate {
+    transform: rotate(0deg);
+    transition: transform 0.8s ease;
+}
+  
+.aos-animate .img-rotate {
+    transform: rotate(-12deg);
 }
 

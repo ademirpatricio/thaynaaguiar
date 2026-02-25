@@ -8,10 +8,9 @@ function Cta(){
             bg-[url('/images/cta-background.jpg')] 
             bg-cover bg-center bg-no-repeat
         ">
-            <div className="
-                max-w-7xl lg:max-w-2xl mx-auto px-6
-                text-center text-light
-            ">
+            <div 
+            data-aos="fade-up" data-aos-delay="0"
+            className="max-w-7xl lg:max-w-2xl mx-auto px-6 text-center text-light">
                 <h2>Vamos criar juntos?</h2>
                 <p className="text-xl mb-10">
                     Se você procura alguém para desenvolver conteúdo digital 
