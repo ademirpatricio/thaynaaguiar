@@ -75,7 +75,7 @@ function Sobre(){
 
                     <Button 
                     label={"📄 meu currículo"} 
-                    link={"https://drive.google.com/file/d/1EAUhUGQRyyW5qc5HbVxpdUMrFMwecar5/view"}
+                    link={"https://drive.google.com/file/d/16cHr2kMZyA9a7PMMl_gmqS2dFN7Gd8XL/view?usp=sharing"}
                     target={"_blank"}
                     title={"Veja meu currículo e conheça minha trajetória"}
                     />
