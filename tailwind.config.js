@@ -28,6 +28,20 @@ export default {
         body: ['1rem', { lineHeight: '1.6' }],
         small: ['0.875rem', { lineHeight: '1.5' }],
       },
+      keyframes: {
+        rotacao: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+        flutuando: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-15px)' },
+        },
+      },
+      animation: {
+        rotacao: 'rotacao 10s linear infinite',
+        flutuando: 'flutuando 5s ease-in-out infinite',
+      },
     },
   },  
   plugins: [],

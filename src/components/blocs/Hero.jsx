@@ -20,7 +20,7 @@ export default function Hero() {
             data-aos="fade-up" data-aos-delay="200"
             className="lg:w-3/5 md:w-4/5 text-lg md:text-xl text-center text-dark mb-8 inline-block">
             Copywriter e criadora de conteúdo digital que 
-            transforma ideias em <strong>conexões reais ✨</strong>
+            transforma ideias em <strong className="font-bold">conexões reais ✨</strong>
           </p>
           <Button 
             label={"↪ veja meu trabalho"} 
@@ -39,6 +39,11 @@ export default function Hero() {
         </div>
 
         <div className="lg:max-w-lg md:w-3/5 pt-20 lg:py-0">
+          {/* Texto animado */}
+          <img
+            src="/images/texto-animado.png" alt="" 
+            className="absolute h-32 animate-rotacao z-30 top-96 md:top-32 lg:top-64"
+          />
           <img
             src="/images/hero-image-02.png" 
             alt="Foto da Thayná Aguiar"

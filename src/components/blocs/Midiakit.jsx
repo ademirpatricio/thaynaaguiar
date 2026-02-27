@@ -18,7 +18,7 @@ function Midiakit(){
                 </div>
                 <div className="flex-1" data-aos="fade-up" data-aos-delay="200">
                     <h3 className="text-2xl md:text-3xl lg:text-4xl">
-                        Baixe meu <span className="text-primary">mídia kit </span> 
+                        Baixe meu <span className="text-primary underline font-bold">mídia kit </span> 
                         e conheça os números da minha audiência
                     </h3>
                     <Button 

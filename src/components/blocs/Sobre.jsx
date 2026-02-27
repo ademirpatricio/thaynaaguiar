@@ -14,11 +14,34 @@ function Sobre(){
 
                 { /* coluna da esquerda com imagens */ }
                 <div className="flex-1" data-aos="fade-up" data-aos-delay="0">
+                    {/* Ícone carta */}
                     <img
+                    src="/images/sobre-ic-1.svg" alt="" 
+                    className="absolute animate-flutuando z-50
+                    h-24 top-64 w-20
+                    lg:h-24 lg:top-80 lg:w-32"
+                    />
+                    {/* Ícone fala */}
+                    <img
+                    src="/images/sobre-ic-2.svg" alt="" 
+                    className="absolute animate-flutuando z-50
+                    w-20 top-36 right-0
+                    lg:w-28 lg:top-48 lg:right-10"
+                    />
+                    {/* Ícone carrinho */}
+                    <img
+                    src="/images/sobre-ic-3.svg" alt="" 
+                    className="absolute animate-flutuando z-50
+                    h-20 top-0 left-4
+                    lg:h-24 lg:top-0 lg:left-12"
+                    />
+                    {/* Foto de Thayná de background */}
+                    <img 
                     src="/images/sobre-image-02.png" 
                     alt="Foto da Thayná Aguiar"
                     className="w-full h-auto mx-auto"
                     />
+                    {/* Imagem de Thayná */}
                     <img
                     src="/images/sobre-image-01.png" 
                     alt="Foto da Thayná Aguiar"
@@ -29,7 +52,7 @@ function Sobre(){
 
                 { /* coluna da direita com informações */ }
                 <div className="flex-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3 className="text-3xl md:text-3xl lg:text-3xl">Quem sou, o que já fiz e o que posso fazer pela sua <span className="text-primary">empresa ou projeto.</span></h3>
+                    <h3 className="text-3xl md:text-3xl lg:text-3xl">Quem sou, o que já fiz e o que posso fazer pela sua <span className="text-primary font-bold">empresa ou projeto.</span></h3>
                     <h4 className="mb-8">Com 7 anos de experiência no mercado digital, já passei por vários projetos e sei exatamente como comunicar o seu projeto ou produto.</h4>
                     <ul className="list-none space-y-2 mb-8">
                         <li className="flex flex-row gap-4">

@@ -26,7 +26,7 @@ function Servicos(){
 
                 { /* coluna da direita com informações */ }
                 <div className="flex-1 text-white">
-                    <h2 className="text-2xl lg:text-4xl">Comunicadora digital com 7 anos de experiência em conteúdo, redes sociais e <span className="text-primary">marketing</span> estratégico.</h2>
+                    <h2 className="text-2xl lg:text-4xl">Comunicadora digital com 7 anos de experiência em conteúdo, redes sociais e <span className="text-primary font-bold underline">marketing</span> estratégico.</h2>
                     <p>Recifense, apaixonada por futebol e pelo universo digital. Transformo marcas em histórias que conectam, engajam e vendem. </p>
                     <p>Sou Especialista em criar conteúdos que fazem a diferença nas redes sociais, sempre buscando a melhor forma de contar a história da sua marca.</p>
                     <Button 
