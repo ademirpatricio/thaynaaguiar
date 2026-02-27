@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="lg:max-w-xl md:w-3/5 md:text-center relative">
           <h1 
             data-aos="fade-up" data-aos-delay="0" 
-            className="font-display text-dark mt-8 text-5xl md:text-6xl lg:text-8xl font-bold">
+            className="font-display text-dark mt-8 text-6xl md:text-6xl lg:text-8xl font-bold">
             Thayná <span className="text-primary">Aguiar</span>
           </h1>
           <p 
