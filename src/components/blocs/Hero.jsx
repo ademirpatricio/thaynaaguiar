@@ -42,7 +42,7 @@ export default function Hero() {
           {/* Texto animado */}
           <img
             src="/images/texto-animado.png" alt="" 
-            className="absolute h-32 animate-rotacao z-30 top-96 md:top-32 lg:top-64"
+            className="absolute h-32 animate-rotacao z-30 top-1/2 md:top-32 lg:top-64"
           />
           <img
             src="/images/hero-image-02.png" 
