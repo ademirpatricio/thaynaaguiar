@@ -18,7 +18,7 @@ export default function Hero() {
           </h1>
           <p 
             data-aos="fade-up" data-aos-delay="200"
-            className="lg:w-3/5 md:w-4/5 text-lg md:text-xl text-center text-dark mb-8 px-4 inline-block">
+            className="lg:w-4/5 md:w-4/5 text-lg md:text-2xl text-center text-dark mb-8 px-4 inline-block">
             Copywriter e criadora de conteúdo digital que 
             transforma ideias em <strong className="font-bold">conexões reais ✨</strong>
           </p>
