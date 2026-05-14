@@ -1,53 +1,53 @@
-# ✨ Thayná Aguiar — Presença Digital com Identidade
+# ✨ Thayná Aguiar — Digital Presence
 
-Site institucional em formato de portfólio desenvolvido para fortalecer 
-a presença digital de Thayná Aguiar, apresentando seus serviços, 
-identidade e canais de contato de forma clara e estratégica.
-  
+Site institucional em formato de portfólio desenvolvido para fortalecer a presença digital de Thayná Aguiar, apresentando seus serviços, identidade e canais de contato de forma clara, moderna e estratégica.
+
+---
+
 ## 🔎 Sobre o Projeto
 
-Este projeto foi desenvolvido com foco em:
+O projeto foi desenvolvido com foco em criar uma experiência digital minimalista, responsiva e intuitiva, priorizando clareza na comunicação, hierarquia visual e navegação fluida.
 
-- Organização de informações
-- Clareza na apresentação profissional
-- Estrutura enxuta e objetiva
-- Experiência do usuário simples e intuitiva
-- Performance e carregamento rápido
+A proposta combina estética contemporânea, microinterações sutis e uma estrutura enxuta para transmitir uma presença digital mais sofisticada e profissional.
 
-A proposta foi criar uma página moderna, minimalista e 
-responsiva, priorizando leitura fluida e navegação direta.
-  
+---
+
 ## 🚀 Tecnologias Utilizadas
 
-- **Vite** — build rápido e estrutura enxuta  
-- **React** — componentização e organização escalável  
-- **Tailwind CSS** — estilização precisa e responsiva  
-- **AOS (Animate On Scroll)** — animações suaves baseadas em scroll  
-  
+- Vite  
+- React  
+- Tailwind CSS  
+- AOS (Animate On Scroll)
+
+---
+
 ## 📱 Responsividade
 
-O layout segue abordagem mobile-first, garantindo consistência em:
+O layout foi desenvolvido com abordagem mobile-first, garantindo consistência visual e boa experiência de navegação em diferentes dispositivos:
 
 - Desktop  
 - Tablet  
-- Mobile  
+- Mobile
 
-Flexbox e utilitários do Tailwind foram utilizados para manter 
-proporção, espaçamento e equilíbrio visual em diferentes resoluções.
-  
+---
+
 ## 🎯 Objetivos de Desenvolvimento
 
-- Estruturação de componentes em React
-- Organização de layout com Tailwind
-- Responsividade com abordagem mobile-first
-- Separação clara de seções e hierarquia visual
-- Aplicação de microinterações para reforçar experiência do usuário
-- Boas práticas de organização de projeto com Vite
-  
+- Estruturação escalável com React  
+- Organização visual com Tailwind CSS  
+- Responsividade mobile-first  
+- Hierarquia visual clara  
+- Aplicação de microinterações  
+- Performance e carregamento otimizado
+
+---
+
 ## 📌 Status
 
-Projeto em desenvolvimento.
-  
+Em constante atualização.
+
+---
+
 ## 🔗 Deploy
 
-[Ainda em desenvolvimento]()
+https://www.thaynaaguiar.com.br
