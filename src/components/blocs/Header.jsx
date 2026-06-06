@@ -14,6 +14,24 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape" && open) {
+        setOpen(false)
+      }
+    }
+
+    window.addEventListener("keydown", handleKeyDown)
+    return () => window.removeEventListener("keydown", handleKeyDown)
+  }, [open])
+
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : ""
+    return () => {
+      document.body.style.overflow = ""
+    }
+  }, [open])
+
   return (
     <>
       {/* HEADER */}
@@ -24,17 +42,17 @@ export default function Header() {
             : "text-primary bg-transparent"
         }`}
       >
-        <nav className="max-w-6xl mx-auto flex items-center 
+        <nav role="navigation" aria-label="Navegação principal" className="max-w-6xl mx-auto flex items-center 
         justify-end md:justify-center
         gap-20 px-6 py-8">
 
             {/* Desktop */}
             <ul className="hidden md:flex gap-8 text-lg">
-                <li><a href="#">Início</a></li>
+                <li><a href="#hero">Início</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#sobre">Sobre mim</a></li>
                 <li><a href="#midiakit">Audiência</a></li>
-                <li><a href="https://wa.me/5581997965267?text=Oi%20Thayn%C3%A1%2C%20tudo%20bem%3F%20%0AVim%20do%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20seu%20trabalho." target="_blank">Contato</a></li>
+                <li><a href="https://wa.me/5581997965267?text=Oi%20Thayn%C3%A1%2C%20tudo%20bem%3F%20%0AVim%20do%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20seu%20trabalho." target="_blank" rel="noopener noreferrer">Contato</a></li>
             </ul>
 
             {/* Logo */}
@@ -49,6 +67,10 @@ export default function Header() {
 
             {/* Botão Mobile */}
             <button 
+                type="button"
+                aria-label={open ? "Fechar menu" : "Abrir menu"}
+                aria-expanded={open}
+                aria-controls="mobile-menu"
                 className="md:hidden text-4xl text-primary bg-light
                            pt-2 px-4 pb-4 rounded-lg shadow-lg"
                 onClick={() => setOpen(true)}
@@ -68,11 +90,17 @@ export default function Header() {
 
       {/* MENU LATERAL */}
       <aside
+        id="mobile-menu"
+        role="dialog"
+        aria-modal="true"
+        aria-hidden={!open}
         className={`fixed top-0 right-0 h-full w-72 bg-dark text-white p-8 transform transition-transform duration-300 md:hidden z-50 ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <button 
+          type="button"
+          aria-label="Fechar menu"
           className="mb-8 text-xl"
           onClick={() => setOpen(false)}
         >
@@ -80,11 +108,11 @@ export default function Header() {
         </button>
 
         <ul className="flex flex-col gap-6 text-lg">
-            <li><a onClick={() => setOpen(false)} href="#">Início</a></li>
+            <li><a onClick={() => setOpen(false)} href="#hero">Início</a></li>
             <li><a onClick={() => setOpen(false)} href="#servicos">Serviços</a></li>
             <li><a onClick={() => setOpen(false)} href="#sobre">Sobre mim</a></li>
             <li><a onClick={() => setOpen(false)} href="#midiakit">Audiência</a></li>
-            <li><a onClick={() => setOpen(false)} href="https://wa.me/5581997965267?text=Oi%20Thayn%C3%A1%2C%20tudo%20bem%3F%20%0AVim%20do%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20seu%20trabalho." target="_blank">Contato</a></li>
+            <li><a onClick={() => setOpen(false)} href="https://wa.me/5581997965267?text=Oi%20Thayn%C3%A1%2C%20tudo%20bem%3F%20%0AVim%20do%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20seu%20trabalho." target="_blank" rel="noopener noreferrer">Contato</a></li>
         </ul>
       </aside>
     </>

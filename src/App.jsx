@@ -8,6 +8,7 @@ import Servicos from "./components/blocs/Servicos"
 import Marcas from "./components/blocs/Marcas"
 import Sobre from "./components/blocs/Sobre"
 import Midiakit from "./components/blocs/Midiakit"
+import Galeria from "./components/blocs/Galeria"
 import Cta from "./components/blocs/Cta"
 
 import Whatsapp from "./components/elements/Whatsapp.jsx"
@@ -22,17 +23,18 @@ export default function App() {
   }, [])
 
   return (
-    
-    <div className="wrap">
-      <Header/>
-      <Hero/>
-      <Servicos/>
-      <Marcas/>
-      <Sobre/>
-      <Midiakit/>
-      <Cta/>
+    <>
+      <Header />
+      <main className="wrap">
+        <Hero />
+        <Servicos />
+        <Marcas />
+        <Sobre />
+        <Midiakit />
+        <Galeria />
+        <Cta />
+      </main>
       <Whatsapp />
-    </div> 
-
+    </>
   )
 }

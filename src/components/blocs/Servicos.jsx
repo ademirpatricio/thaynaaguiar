@@ -14,11 +14,13 @@ function Servicos(){
                     <img
                     src="/images/servico-img-1.jpg" 
                     alt="Foto da Thayná Aguiar em entrevista com Guto Galamba"
+                    loading="lazy"
                     className="h-auto w-full -rotate-12 shadow-lg lg:w-4/5 img-rotate "
                     />
                     <img
                     src="/images/servico-img-2.jpg" 
                     alt="Foto da Thayná Aguiar em entrevista com Guto Galamba"
+                    loading="lazy"
                     className="h-auto w-full -mt-10 ml-4 rotate-6 shadow-lg
                     lg:w-4/5 lg:-mt-40 lg:ml-28"
                     />
@@ -26,7 +28,7 @@ function Servicos(){
 
                 { /* coluna da direita com informações */ }
                 <div className="flex-1 text-white">
-                    <h2 className="text-2xl lg:text-4xl">Comunicadora digital com 7 anos de experiência em conteúdo, redes sociais e <span className="text-primary font-bold underline">marketing</span> estratégico.</h2>
+                    <h2 className="text-2xl lg:text-4xl">↗ Comunicadora digital com 7 anos de experiência em conteúdo, redes sociais e <span className="text-primary font-bold underline">marketing</span> estratégico.</h2>
                     <p>Recifense, apaixonada por futebol e pelo universo digital. Transformo marcas em histórias que conectam, engajam e vendem. </p>
                     <p>Sou Especialista em criar conteúdos que fazem a diferença nas redes sociais, sempre buscando a melhor forma de contar a história da sua marca.</p>
                     <Button 
@@ -42,13 +44,14 @@ function Servicos(){
 
             { /* wrap ================================================================= */ }
             <div className="max-w-7xl mx-auto px-6 gap-10 md:gap-12 lg:gap-16
-            grid md:grid-cols-2 lg:grid-cols-4">
+            grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 
                 { /* coluna 1 */ }
                 <div className="text-white" data-aos="fade-up" data-aos-delay="0">
                     <img
                     src="/images/servico-ic-1.svg" 
-                    alt="Ícone"
+                    alt="Ícone de produção audiovisual"
+                    loading="lazy"
                     className="w-12 h-12 mb-4"
                     />
                     <h5 className="text-primary">DO ROTEIRO À TELA</h5>
@@ -60,7 +63,8 @@ function Servicos(){
                 <div className="text-white" data-aos="fade-up" data-aos-delay="150">
                     <img
                     src="/images/servico-ic-4.svg" 
-                    alt="Ícone"
+                    alt="Ícone de copywriting"
+                    loading="lazy"
                     className="w-12 h-12 mb-4"
                     />
                     <h5 className="text-primary">TEXTOS QUE CONECTAM</h5>
@@ -72,7 +76,8 @@ function Servicos(){
                 <div className="text-white" data-aos="fade-up" data-aos-delay="300">
                     <img
                     src="/images/servico-ic-2.svg" 
-                    alt="Ícone"
+                    alt="Ícone de gestão de redes sociais"
+                    loading="lazy"
                     className="w-12 h-12 mb-4"
                     />
                     <h5 className="text-primary">ESTRATÉGIA + CRIATIVIDADE</h5>
@@ -84,7 +89,8 @@ function Servicos(){
                 <div className="text-white" data-aos="fade-up" data-aos-delay="450">
                     <img
                     src="/images/servico-ic-3.svg" 
-                    alt="Ícone"
+                    alt="Ícone de marketing digital"
+                    loading="lazy"
                     className="w-12 h-12 mb-4"
                     />
                     <h5 className="text-primary">PLANEJAMENTO E RESULTADO</h5>

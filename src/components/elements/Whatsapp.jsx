@@ -4,6 +4,7 @@ export default function Whatsapp() {
         href="https://wa.me/5581997965267?text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+os+seus+servi%C3%A7os"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Abrir conversa no WhatsApp"
         className="
           fixed
           bottom-10
@@ -19,7 +20,7 @@ export default function Whatsapp() {
           text-white
           shadow-lg
           transition
-          duration-600
+          duration-300
           animate-pulse
           z-[999]
         "

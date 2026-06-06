@@ -17,21 +17,24 @@ function Sobre(){
                     {/* Ícone carta */}
                     <img
                     src="/images/sobre-ic-1.svg" alt="" 
-                    className="absolute animate-flutuando z-50
+                    aria-hidden="true"
+                    className="hidden md:block absolute animate-flutuando z-50
                     h-24 top-64 w-20
                     lg:h-24 lg:top-80 lg:w-32"
                     />
                     {/* Ícone fala */}
                     <img
                     src="/images/sobre-ic-2.svg" alt="" 
-                    className="absolute animate-flutuando z-50
+                    aria-hidden="true"
+                    className="hidden md:block absolute animate-flutuando z-50
                     w-20 top-36 right-0
                     lg:w-28 lg:top-48 lg:right-10"
                     />
                     {/* Ícone carrinho */}
                     <img
                     src="/images/sobre-ic-3.svg" alt="" 
-                    className="absolute animate-flutuando z-50
+                    aria-hidden="true"
+                    className="hidden md:block absolute animate-flutuando z-50
                     h-20 top-0 left-4
                     lg:h-24 lg:top-0 lg:left-12"
                     />
@@ -39,13 +42,15 @@ function Sobre(){
                     <img 
                     src="/images/sobre-image-02.png" 
                     alt="Foto da Thayná Aguiar"
+                    loading="lazy"
                     className="w-full h-auto mx-auto"
                     />
                     {/* Imagem de Thayná */}
                     <img
                     src="/images/sobre-image-01.png" 
                     alt="Foto da Thayná Aguiar"
-                    className="w-4/5 lg:w-4/6 h-auto -mt-80 mx-auto 
+                    loading="lazy"
+                    className="w-4/5 lg:w-4/6 h-auto -mt-48 md:-mt-80 mx-auto 
                     lg:-translate-y-[230px]"
                     />
                 </div>
@@ -56,19 +61,19 @@ function Sobre(){
                     <h4 className="mb-8">Com 7 anos de experiência no mercado digital, já passei por vários projetos e sei exatamente como comunicar o seu projeto ou produto.</h4>
                     <ul className="list-none space-y-2 mb-8">
                         <li className="flex flex-row gap-4">
-                            <img src="/images/icone-brilho.png" alt="" className="w-8 h-8 mt-1" />
+                            <img src="/images/icone-brilho.png" alt="" aria-hidden="true" className="w-8 h-8 mt-1" />
                             Fui por 3 anos a cara do VAI CAIR NO ENEM, um dos maiores perfis voltados para a educação;
                         </li>
                         <li className="flex flex-row gap-4">
-                            <img src="/images/icone-brilho.png" alt="" className="w-8 h-8 mt-1" />
+                            <img src="/images/icone-brilho.png" alt="" aria-hidden="true" className="w-8 h-8 mt-1" />
                             Fui repórter do caderno de esportes do LeiaJá, portal de notícias do Recife;
                         </li>
                         <li className="flex flex-row gap-4">
-                            <img src="/images/icone-brilho.png" alt="" className="w-8 h-8 mt-1" />
+                            <img src="/images/icone-brilho.png" alt="" aria-hidden="true" className="w-8 h-8 mt-1" />
                             Trabalhei produzindo conteúdo para grandes nomes do mercado digital, como Guto Galamba, Rodrigo Barros, Gilberto Augusto, Janguiê Diniz, Ana Tomazelli e muitos outros; 
                         </li>
                         <li className="flex flex-row gap-4">
-                            <img src="/images/icone-brilho.png" alt="" className="w-8 h-8 mt-1" />
+                            <img src="/images/icone-brilho.png" alt="" aria-hidden="true" className="w-8 h-8 mt-1" />
                             Sou a cara, produtora de conteúdo e copywriter do GoExplosion GDF, um dos maiores eventos de marketing digital e empreendedorismo da América Latina.
                         </li>
                     </ul>
